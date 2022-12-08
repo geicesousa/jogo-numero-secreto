@@ -1,0 +1,39 @@
+:root{
+    --bg-color: #332FD0 ;
+    --primary-color: #FB2576;
+    --secundaru-color: #3F0071;
+}
+
+body{
+    font-family: 'Indie Flower', cursive;
+    font-size: x-large ;
+    color: #FB2576;
+    /* #002A1; */
+    background-color: var(--bg-color);
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* margin: 0; */
+}
+
+.mensagem{
+    font-size: 1.5em;
+}
+
+.box{
+    border: 2px solid var(--secundaru-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar{
+    padding: 8px 15px;
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: var(--secundaru-color);
+}
